@@ -29,7 +29,7 @@ public class MyExecutor {
 		
 	}
 	public static void play(){
-		System.out.println("5464");
+		System.out.println("54640");
 	}
 	public static void main(String[] args) {
 		MyExecutor myExecutorTets=new MyExecutor();
