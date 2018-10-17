@@ -30,7 +30,7 @@ public class MyExecutor {
 	}
 
 	public static void play(){
-		System.out.println("99999999000");
+		System.out.println("9999999900066");
 	}
 	public static void main(String[] args) {
 		MyExecutor myExecutorTets=new MyExecutor();
