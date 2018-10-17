@@ -23,7 +23,7 @@ public class CreateDb {
 	public static void main(String[] args) throws InvalidConfigurationException, IOException, XMLParserException, URISyntaxException {
 		List<String> warnings = new ArrayList<String>();
 		   boolean overwrite = true;
-		  System.out.println("维护 ");
+		  System.out.println("68456efrg");
 		   File configFile = new File(  CreateDb.class.getResource( "/generatorConfig.xml" ).toURI() );
 		   ConfigurationParser cp = new ConfigurationParser(warnings);
 		   Configuration config = cp.parseConfiguration(configFile);
