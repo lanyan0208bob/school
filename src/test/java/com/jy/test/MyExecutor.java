@@ -29,11 +29,11 @@ public class MyExecutor {
 		
 	}
 	public static void play(){
-		System.out.println(134);
+		System.out.println("44f");
 	}
 	public static void main(String[] args) {
 		MyExecutor myExecutorTets=new MyExecutor();
-		myExecutorTets.fun("张三");
+		myExecutorTets.fun("张三NIHOcr");
 		play();
 	}
 }
