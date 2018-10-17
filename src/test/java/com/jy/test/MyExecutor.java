@@ -29,11 +29,11 @@ public class MyExecutor {
 		
 	}
 	public static void play(){
-		System.out.println("546456999");
+		System.out.println("5464");
 	}
 	public static void main(String[] args) {
 		MyExecutor myExecutorTets=new MyExecutor();
-		myExecutorTets.fun("张三999");
+		myExecutorTets.fun("张三");
 		play();
 	}
 }
