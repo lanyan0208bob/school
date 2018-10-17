@@ -23,16 +23,16 @@ public class CreateDb {
 	public static void main(String[] args) throws InvalidConfigurationException, IOException, XMLParserException, URISyntaxException {
 		List<String> warnings = new ArrayList<String>();
 		   boolean overwrite = true;
-		  System.out.println(1135633544);
+		  System.out.println(1135633500);
 		   File configFile = new File(  CreateDb.class.getResource( "/generatorConfig.xml" ).toURI() );
 		   ConfigurationParser cp = new ConfigurationParser(warnings);
 		   Configuration config = cp.parseConfiguration(configFile);
 		   DefaultShellCallback callback = new DefaultShellCallback(overwrite);
 		   MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
-		   System.out.println(123);
+		   System.out.println(12889);
 		   try {
 			myBatisGenerator.generate(null);
-//			System.out.println(123);
+			System.out.println(123);
 		} catch (SQLException e) {
 			e.printStackTrace();
 			System.out.println(122223);
